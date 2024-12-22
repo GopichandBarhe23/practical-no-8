@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple accessible website example">
+    <title>Accessible Website Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Accessible Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" title="Learn more about accessibility">About</a></li>
+                <li><a href="#services" title="Explore our services">Services</a></li>
+                <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Web Accessibility</h2>
+            <p>Web accessibility ensures that websites are usable by everyone, including people with disabilities. It includes providing alternatives for visual, auditory, and motor challenges.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer various services, including web development and accessibility audits, to ensure your website is accessible to all users.</p>
+            <ul>
+                <li>Web Design & Development</li>
+                <li>Accessibility Audits</li>
+                <li>User Experience (UX) Consultation</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you would like to know more about how we can assist you with making your website more accessible, please get in touch!</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name" aria-label="Your name">
+                    <br>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email" aria-label="Your email">
+                    <br>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required placeholder="Write your message" aria-label="Your message" rows="4"></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Accessible Web. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
